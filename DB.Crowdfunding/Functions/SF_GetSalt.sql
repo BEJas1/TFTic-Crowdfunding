@@ -1,0 +1,7 @@
+﻿CREATE FUNCTION [dbo].[SF_GetSalt]
+()
+RETURNS NVARCHAR(50)
+AS
+BEGIN
+	RETURN N'VlUELHyCB91:%30;*Puu9xT!Zbb$U^[8Dr4}~K;bj(c]#3H"%Q';
+END
